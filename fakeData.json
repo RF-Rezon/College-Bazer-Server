@@ -1,0 +1,163 @@
+[
+  {
+    "college_image": "https://i.ibb.co/Bg5q7sB/college1.jpg",
+    "college_name": "ABC University",
+    "admission_process": "ABC University follows a holistic admission process, considering academic performance, extracurricular activities, recommendation letters, and personal statements. Prospective students need to submit their application online and may be required to attend an interview.",
+    "events_details": "ABC University hosts various events throughout the year, including cultural festivals, academic conferences, workshops, and sports tournaments. Students are encouraged to participate and showcase their talents.",
+    "research_works": "ABC University is known for its cutting-edge research work in fields such as science, technology, and social sciences. The university collaborates with industry leaders and government organizations to undertake impactful research projects.",
+    "sports_categories": "The university offers a wide range of sports categories, including soccer, basketball, volleyball, athletics, swimming, and cricket. Students can join intramural teams or participate in intercollegiate competitions.",
+    "college_rating": 4.7,
+    "admission_date": "August 15",
+    "gallery_image": "gallery1.jpg",
+    "college_reviews": [
+      {
+        "rating": 4.5,
+        "feedback": "The campus atmosphere is excellent, and the faculty is highly knowledgeable."
+      },
+      {
+        "rating": 4.8,
+        "feedback": "ABC University provides ample research opportunities and a vibrant student community."
+      }
+    ],
+    "research_papers": ["https://nilambazarcollege.ac.in/upload/1.3.2%20Report%20on%20Field%20Work.pdf"],
+    "college_sports": ["Soccer", "Basketball", "Volleyball", "Athletics", "Swimming", "Cricket"]
+  },
+  {
+    "college_image": "https://i.ibb.co/syTRNsd/college2.jpg",
+    "college_name": "XYZ College",
+    "admission_process": "XYZ College admits students based on a competitive admission process. Applicants must fulfill the academic criteria, appear for entrance exams, and attend a personal interview. The college also considers diversity and inclusivity in its selection process.",
+    "events_details": "XYZ College organizes a range of events, including cultural shows, tech fests, seminars, and annual sports meets. These events provide students with opportunities to explore their interests and gain valuable experiences.",
+    "research_works": "XYZ College focuses on interdisciplinary research in emerging fields like artificial intelligence, biotechnology, and environmental studies. The college promotes research-oriented learning among its students.",
+    "sports_categories": "Sports enthusiasts can choose from various categories, including badminton, table tennis, chess, athletics, and kabaddi. The college actively encourages students to maintain a healthy balance between academics and sports.",
+    "college_rating": 4.5,
+    "admission_date": "July 20",
+    "gallery_image": "gallery2.jpg",
+    "college_reviews": [
+      {
+        "rating": 4.2,
+        "feedback": "XYZ College has a beautiful campus, and the faculty is supportive."
+      },
+      {
+        "rating": 4.6,
+        "feedback": "The college events are well-organized and engaging."
+      }
+    ],
+    "research_papers": [
+      "https://nilambazarcollege.ac.in/upload/1.3.2%20Report%20on%20Field%20Work.pdf",
+      "https://nilambazarcollege.ac.in/upload/1.3.2%20Report%20on%20Field%20Work.pdf"
+    ],
+    "college_sports": ["Badminton", "Table Tennis", "Chess", "Athletics", "Kabaddi"]
+  },
+  {
+    "college_image": "https://i.ibb.co/XzGy11s/college3.jpg",
+    "college_name": "PQR Institute",
+    "admission_process": "PQR Institute has a straightforward admission process. Prospective students need to fill out an application form, submit academic records, and may need to clear an entrance test based on their chosen course.",
+    "events_details": "PQR Institute hosts a diverse range of events, including cultural evenings, technical symposiums, seminars, and annual sports championships. Students actively participate and organize these events.",
+    "research_works": "PQR Institute focuses on research in fields like renewable energy, nanotechnology, and sustainable agriculture. The institute collaborates with national and international research organizations to promote innovation.",
+    "sports_categories": "The institute provides ample opportunities for sports enthusiasts, with facilities for cricket, football, basketball, tennis, and athletics. Regular sports competitions are held to foster a competitive spirit.",
+    "college_rating": 4.2,
+    "admission_date": "August 1",
+    "gallery_image": "gallery3.jpg",
+    "college_reviews": [
+      {
+        "rating": 4.0,
+        "feedback": "The institute provides quality education and a supportive learning environment."
+      },
+      {
+        "rating": 4.4,
+        "feedback": "PQR Institute's research initiatives are commendable."
+      }
+    ],
+    "research_papers": [
+      "https://nilambazarcollege.ac.in/upload/1.3.2%20Report%20on%20Field%20Work.pdf",
+      "https://nilambazarcollege.ac.in/upload/1.3.2%20Report%20on%20Field%20Work.pdf",
+      "https://nilambazarcollege.ac.in/upload/1.3.2%20Report%20on%20Field%20Work.pdf",
+      "https://nilambazarcollege.ac.in/upload/1.3.2%20Report%20on%20Field%20Work.pdf",
+      "https://nilambazarcollege.ac.in/upload/1.3.2%20Report%20on%20Field%20Work.pdf"
+    ],
+    "college_sports": ["Cricket", "Football", "Basketball", "Tennis", "Athletics"]
+  },
+  {
+    "college_image": "https://i.ibb.co/88vMWrH/college4.jpg",
+    "college_name": "LMN University",
+    "admission_process": "LMN University follows a merit-based admission process. The selection is based on the candidate's academic performance, and some programs may require additional entrance exams or interviews.",
+    "events_details": "LMN University hosts a range of events, including cultural fests, hackathons, industry seminars, and an annual sports carnival. Students actively participate and collaborate in organizing these events.",
+    "research_works": "LMN University emphasizes research in areas such as computer science, bioengineering, and behavioral economics. The university encourages students and faculty to publish their research findings.",
+    "sports_categories": "Sports are an integral part of campus life, and the university offers facilities for cricket, soccer, basketball, volleyball, and athletics. The university teams compete in various intercollegiate tournaments.",
+    "college_rating": 4.8,
+    "admission_date": "July 10",
+    "gallery_image": "gallery4.jpg",
+    "college_reviews": [
+      {
+        "rating": 4.9,
+        "feedback": "LMN University provides top-notch education with excellent research opportunities."
+      },
+      {
+        "rating": 4.7,
+        "feedback": "The campus is lively, and the sports facilities are outstanding."
+      }
+    ],
+    "research_papers": [
+      "https://nilambazarcollege.ac.in/upload/1.3.2%20Report%20on%20Field%20Work.pdf",
+      "https://nilambazarcollege.ac.in/upload/1.3.2%20Report%20on%20Field%20Work.pdf"
+    ],
+    "college_sports": ["Cricket", "Soccer", "Basketball", "Volleyball", "Athletics"]
+  },
+  {
+    "college_image": "https://i.ibb.co/0ZK4tgF/college5.jpg",
+    "college_name": "EFG College",
+    "admission_process": "EFG College has a unique admission process that includes a combination of academic performance, entrance tests, interviews, and assessment of the applicant's passion for their chosen field of study.",
+    "events_details": "EFG College hosts an array of events, including cultural shows, tech expos, literary festivals, and sports competitions. These events provide a platform for students to showcase their talents.",
+    "research_works": "EFG College focuses on research in areas like neuroscience, sustainable design, and public policy. The college encourages students and faculty to engage in research-driven learning.",
+    "sports_categories": "The college offers various sports categories, including basketball, cricket, swimming, tennis, and track and field. Students are actively encouraged to participate in both recreational and competitive sports.",
+    "college_rating": 4.6,
+    "admission_date": "August 5",
+    "gallery_image": "gallery5.jpg",
+    "college_reviews": [
+      {
+        "rating": 4.4,
+        "feedback": "EFG College has a diverse student community and offers excellent research facilities."
+      },
+      {
+        "rating": 4.7,
+        "feedback": "The college fosters a supportive learning environment for all students."
+      }
+    ],
+    "research_papers": [
+      "https://nilambazarcollege.ac.in/upload/1.3.2%20Report%20on%20Field%20Work.pdf",
+      "https://nilambazarcollege.ac.in/upload/1.3.2%20Report%20on%20Field%20Work.pdf",
+      "https://nilambazarcollege.ac.in/upload/1.3.2%20Report%20on%20Field%20Work.pdf"
+    ],
+    "college_sports": ["Basketball", "Cricket", "Swimming", "Tennis", "Track and Field"]
+  },
+  {
+    "college_image": "https://i.ibb.co/mFpsmtZ/college6.jpg",
+    "college_name": "IJK Institute",
+    "admission_process": "IJK Institute follows a transparent admission process. The institute considers academic records and conducts entrance exams for some courses. Additionally, the institute conducts interviews for certain programs.",
+    "events_details": "IJK Institute organizes various events, including cultural festivals, technical symposiums, entrepreneurship expos, and annual sports tournaments. Students actively participate and contribute to the success of these events.",
+    "research_works": "IJK Institute has a dedicated research center that focuses on cutting-edge research in fields such as engineering, bioinformatics, and environmental studies. Students and faculty actively collaborate on research projects.",
+    "sports_categories": "Sports play a significant role in the institute's culture, with categories including cricket, football, basketball, badminton, and athletics. The institute's sports teams have a strong presence in intercollegiate competitions.",
+    "college_rating": 4.4,
+    "admission_date": "August 25",
+    "gallery_image": "gallery6.jpg",
+    "college_reviews": [
+      {
+        "rating": 4.2,
+        "feedback": "IJK Institute offers great exposure to research and industry-oriented learning."
+      },
+      {
+        "rating": 4.6,
+        "feedback": "The institute's sports facilities are impressive, and the campus is vibrant."
+      }
+    ],
+    "research_papers": [
+      "https://nilambazarcollege.ac.in/upload/1.3.2%20Report%20on%20Field%20Work.pdf",
+      "https://nilambazarcollege.ac.in/upload/1.3.2%20Report%20on%20Field%20Work.pdf",
+      "https://nilambazarcollege.ac.in/upload/1.3.2%20Report%20on%20Field%20Work.pdf",
+      "https://nilambazarcollege.ac.in/upload/1.3.2%20Report%20on%20Field%20Work.pdf",
+      "https://nilambazarcollege.ac.in/upload/1.3.2%20Report%20on%20Field%20Work.pdf",
+      "https://nilambazarcollege.ac.in/upload/1.3.2%20Report%20on%20Field%20Work.pdf"
+    ],
+    "college_sports": ["Cricket", "Football", "Basketball", "Badminton", "Athletics"]
+  }
+]
