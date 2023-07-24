@@ -1,14 +1,13 @@
 require("dotenv").config();
-const express = require("express");
-const cors = require("cors");
+import cors from "cors";
+import express, { json } from "express";
 const app = express();
 const port = process.env.PORT || 4000;
 
-app.use(express.json());
+app.use(json());
 app.use(cors());
 
-const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
-const { resolveSoa } = require("dns");
+import { MongoClient, ObjectId, ServerApiVersion } from "mongodb";
 const uri = `mongodb+srv://${process.env.NAME}:${process.env.PASSWORD}@collegebazarcluster.vbcx3j9.mongodb.net/?retryWrites=true&w=majority`;
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
@@ -24,14 +23,10 @@ const haiku2 = client.db("CollegeBazar").collection("Student_Form_Info");
 
 async function run() {
   try {
-    
-
     app.get("/all", async (req, res) => {
       const allColleges = await haiku.find().toArray();
       res.send(allColleges);
     });
-
-   
 
     app.get("/all/:id", async (req, res) => {
       const id = req.params.id;
@@ -67,18 +62,22 @@ async function run() {
 
     app.put("/updatingUser/:email", async (req, res) => {
       const email = req.params.email;
-      const {candidate_name, candidate_email, address, phone_number} = req.body;
-      const final = await haiku2.updateOne( { candidate_email: email },
-        { $set: {
-        candidate_name: candidate_name,
-        candidate_email: candidate_email,
-        address: address,
-        phone_number: phone_number
-      } });
-      console.log(req.body)
-      res.send(final)
+      const { candidate_name, candidate_email, address, phone_number } = req.body;
+      const final = await haiku2.updateOne(
+        { candidate_email: email },
+        {
+          $set: {
+            candidate_name: candidate_name,
+            candidate_email: candidate_email,
+            address: address,
+            phone_number: phone_number,
+          },
+        }
+      );
+      console.log(req.body);
+      res.send(final);
     });
-    
+
     console.log("Pinged your deployment. You successfully connected to MongoDB!");
   } finally {
     // Ensures that the client will close when you finish/error
