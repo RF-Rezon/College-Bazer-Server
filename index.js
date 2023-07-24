@@ -1,10 +1,11 @@
-require("dotenv").config();
-import cors from "cors";
-import express, { json } from "express";
+const express = require("express");
+const cors = require("cors");
 const app = express();
+
+require("dotenv").config();
 const port = process.env.PORT || 4000;
 
-app.use(json());
+app.use(express.json());
 app.use(cors());
 
 import { MongoClient, ObjectId, ServerApiVersion } from "mongodb";
@@ -18,10 +19,10 @@ const client = new MongoClient(uri, {
     deprecationErrors: true,
   },
 });
-const haiku = client.db("CollegeBazar").collection("Colleges_Info2");
-const haiku2 = client.db("CollegeBazar").collection("Student_Form_Info");
 
 async function run() {
+  const haiku = client.db("CollegeBazar").collection("Colleges_Info2");
+  const haiku2 = client.db("CollegeBazar").collection("Student_Form_Info");
   try {
     app.get("/all", async (req, res) => {
       const allColleges = await haiku.find().toArray();
