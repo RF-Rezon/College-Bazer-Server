@@ -1,5 +1,22 @@
 
 
+college_image
+college_name
+admission_process
+events_details
+research_works
+sports_categories
+college_rating
+admission_date
+gallery_image
+college_reviews => rating, feedback
+research_papers
+college_sports
+
+
+
+
+
 
 
 
